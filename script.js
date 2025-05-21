@@ -92,13 +92,13 @@ gsap.from(".card", {
   },
 });
 
-gsap.from("#cardText_img", {
+gsap.from("#Text_img", {
   scale: 0.8,
   // opacity:0,
   duration: 1,
   stagger: 0.1,
   scrollTrigger: {
-    trigger: "#cardText_img",
+    trigger: "#Text_img",
     scroller: "body",
     // markers:false,
     start: "top 70%",

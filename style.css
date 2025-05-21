@@ -226,7 +226,6 @@ video {
 .card {
   height: 75%;
   width: 20%;
-  /* background-color: blue; */
   border-radius: 20px;
   background-size: cover;
   background-position: center;
@@ -269,6 +268,7 @@ video {
 .card:hover {
   transform: rotate3d(-1, 1, 0, 20deg);
 }
+
 #green_div {
   height: 45vh;
   display: flex;
@@ -291,7 +291,7 @@ video {
   object-fit: cover;
   width: 14%;
 }
-#cardText {
+#Text {
   height: 100vh;
   width: 100%;
   /* background-color: red; */
@@ -299,20 +299,20 @@ video {
   align-items: center;
   justify-content: center;
 }
-#cardText_img {
+#Text_img {
   height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#cardText_img img {
+#Text_img img {
   height: 55%;
   width: 80%;
   object-fit: cover;
   border-radius: 25px;
 }
-#cardText_text {
+#Text_text {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -320,18 +320,18 @@ video {
   /* align-items: center; */
   justify-content: center;
 }
-#cardText_text h2 {
+#Text_text h2 {
   font-size: 50px;
   font-weight: 900;
   padding: 14px 0;
 }
-#cardText_text p {
+#Text_text p {
   font-size: 20px;
   width: 600px;
   line-height: 32px;
   padding: 14px 0;
 }
-#cardText_text button {
+#Text_text button {
   padding: 15px 30px;
   width: 200px;
   border-radius: 35px;
@@ -343,7 +343,7 @@ video {
   margin: 20px 0;
   transition: all ease 0.5s;
 }
-#cardText_text button:hover {
+#Text_text button:hover {
   background-color: #95c11e;
   color: #000;
   transition: all ease 0.5s;
