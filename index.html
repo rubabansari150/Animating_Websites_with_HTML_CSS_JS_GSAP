@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animating_Websites_with_HTML_CSS_JS_GSAP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="nav">
+      <img src="./images/logo.svg" alt="logo" />
+      <h4>Toptracer Range</h4>
+      <h4>Golf Lessons</h4>
+      <h4>Adventure Golf</h4>
+      <h4>coffee shop</h4>
+      <h4>leagues</h4>
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor_blur"></div>
+    <video autoplay loop muted src="./hero.mp4"></video>
+
+    <div id="main">
+      <div id="page_1">
+        <h1>EAT. DRINK. PLAY.</h1>
+        <h2>WELCOME TO SIDCUP FAMILY GOLF!</h2>
+        <p>
+          Sidcup Family Golf is a multipurpose golf facility located in Sidcup,
+          South East London. Passionate about technology, player development and
+          making golf fun and accessible to everyone.
+        </p>
+        <div id="arrow">
+          <i class="fa-solid fa-arrow-down-long"></i>
+        </div>
+      </div>
+
+      <div id="page_2">
+        <div id="scroller">
+          <div id="scroller-in">
+            <h4>TOPTRACER RANGE</h4>
+            <h4>GOLF LESSONS</h4>
+            <h4>ADVENTURE GOLF</h4>
+            <h4>COFFEE SHOP</h4>
+            <h4>LEAGUES</h4>
+          </div>
+        </div>
+        <div id="about_us">
+          <img src="./images/AboutUs_img_1.avif" alt="" />
+          <div id="about_us_in">
+            <h3>ABOUT US</h3>
+            <p>
+              Home to a 46-bay, multi-tier, floodlit driving range, powered by
+              Toptracer Range technology. Complimented by a practice green and
+              bunker, coffee shop and American Golf Store. There truly is
+              something for everyone as we also boast two outdoor 18-hole
+              dinosaur themed crazy golf courses.
+            </p>
+          </div>
+          <img src="./images/AboutUs_img_2.avif" alt="" />
+        </div>
+        <div id="cards_container">
+          <div class="card" id="card_1">
+            <div class="overlay">
+              <h4>TopRacer Range</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                quam molestias magni cupiditate architecto et enim quas facere
+                ipsum tempora?
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card_2">
+            <div class="overlay">
+              <h4>Adventure Golf</h4>
+              <p>
+                Lorem, ipsum dolor elit. <br />
+                <br />
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                quam molestias magni cupiditate architecto et enim quas facere
+                ipsum tempora?
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card_3">
+            <div class="overlay">
+              <h4>Golf Lessons</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                quam molestias magni cupiditate architecto et enim quas facere
+                ipsum tempora?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="green_div">
+          <img src="./images/para_img.svg" alt="" />
+          <h4>
+            SIGN UP FOR SIDCUP NEWS AND SPECIAL OFFERS STRAIGHT TO YOUR INBOX
+          </h4>
+          <img src="./images/para_img.svg" alt="" />
+        </div>
+        <div id="cardText">
+          <div id="cardText_img">
+            <img src="./images/cardText_img.avif" alt="" />
+          </div>
+          <div id="cardText_text">
+            <h2>Food And Drink</h2>
+            <p>
+              Whether you’re getting ready to play, just finishing your practice
+              session or feeling peckish on the range, we have a variety of food
+              and drink options bought directly to your table or bay.
+            </p>
+            <p>
+              We make sure that we cater for everyone, offering a range of vegan
+              and gluten free options.
+            </p>
+            <button>Coffee Shop</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="page_3">
+        <p>
+          Excellent couple of hours, relax and enjoy in the fun. Staff were
+          accommodating, friendly and very helpful. Café on site for
+          refreshments etc. Will keep children enterntained during the holidays.
+          Worth a visit if you haven’t been.
+        </p>
+        <img src="./images/colon_1.svg" id="colon_1" alt="" />
+        <img src="./images/colon_2.svg" id="colon_2" alt="" />
+      </div>
+
+      <div id="page_4">
+        <h1>WHAT ARE YOU WAITING FOR?</h1>
+        <div class="elem">
+          <h2>TOPTRACER RANGE</h2>
+          <img src="./images/page$_card_1.avif" alt="" />
+        </div>
+        <div class="elem">
+          <h2>TOPTRACER RANGE</h2>
+          <img src="./images/page_4_card_2.avif" alt="" />
+        </div>
+        <div class="elem">
+          <h2>TOPTRACER RANGE</h2>
+          <img src="./images/page_4_card_3.avif" alt="" />
+        </div>
+      </div>
+
+      <div id="footer">
+        <img src="./images/footer_img.svg" alt="" />
+        <div id="footer_1">
+          <img src="./images/logo.svg" alt="" />
+        </div>
+        <div id="footer_2">
+          <h3>TOPTRACER Ranges</h3>
+          <h3>Golf Lessons</h3>
+          <h3>Adventure Golf</h3>
+        </div>
+        <div id="footer_3">
+          <h3>coffee shop</h3>
+          <h3>LEAGUES</h3>
+          <h3>Contact us</h3>
+        </div>
+        <div id="footer_4">
+          <h4>
+            A20, SIDCUP BYPASS <br />
+            CHISLEHURST <br />
+            KENT <br />
+            BR7 6RP <br />
+            TEL: 0208 309 0181 <br />
+            GET DIRECTIONS <br />
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
