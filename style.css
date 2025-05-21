@@ -291,63 +291,9 @@ video {
   object-fit: cover;
   width: 14%;
 }
-#Text {
-  height: 100vh;
-  width: 100%;
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#Text_img {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#Text_img img {
-  height: 55%;
-  width: 80%;
-  object-fit: cover;
-  border-radius: 25px;
-}
-#Text_text {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
-}
-#Text_text h2 {
-  font-size: 50px;
-  font-weight: 900;
-  padding: 14px 0;
-}
-#Text_text p {
-  font-size: 20px;
-  width: 600px;
-  line-height: 32px;
-  padding: 14px 0;
-}
-#Text_text button {
-  padding: 15px 30px;
-  width: 200px;
-  border-radius: 35px;
-  border: 2px solid #95c11e;
-  background-color: #000;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin: 20px 0;
-  transition: all ease 0.5s;
-}
-#Text_text button:hover {
-  background-color: #95c11e;
-  color: #000;
-  transition: all ease 0.5s;
-}
+
+
+
 #page_3 {
   height: 100vh;
   width: 100%;
