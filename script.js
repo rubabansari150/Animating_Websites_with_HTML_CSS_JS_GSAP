@@ -48,9 +48,24 @@ h4all.forEach(function (elem) {
   });
 });
 
-var cards = document.querySelectorAll("#page_4 .elem");
+var smallCards = document.querySelectorAll("#page_4 .elem");
 
-cards.forEach(function (elem) {
+smallCards.forEach(function (elem) {
+  elem.addEventListener("mouseenter", function () {
+    crsr.style.scale = 3;
+    crsr.style.border = "1px solid #fff";
+    crsr.style.backgroundColor = "transparent";
+  });
+  elem.addEventListener("mouseleave", function () {
+    crsr.style.scale = 1;
+    crsr.style.border = "0px solid #95C11E";
+    crsr.style.backgroundColor = "#95C11E";
+  });
+});
+
+var bigCards = document.querySelectorAll("#page_2 #cards_container .card");
+
+bigCards.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
     crsr.style.scale = 3;
     crsr.style.border = "1px solid #fff";
@@ -79,9 +94,9 @@ gsap.from("#about_us img, #about_us_in", {
 
 gsap.from(".card", {
   scale: 0.8,
-  // opacity:0,
+  opacity:0,
   duration: 1,
-  stagger: 0.1,
+  // stagger: 0.1,
   scrollTrigger: {
     trigger: ".card",
     scroller: "body",
